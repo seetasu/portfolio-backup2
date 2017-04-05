@@ -34,6 +34,13 @@ $(document).ready(function(){
 		$('.hallstatt .expand-btn .btn-down').toggleClass("hidden",1000,"easeOutCubic");
 	});	
 
+	$('.reflection_el .expand-btn').click(function(){
+		$('.reflection_el .article-content .full-text').toggleClass("hidden",1000,"easeOutCubic");
+		$('.reflection_el .article-content .preview').toggleClass("hidden",1000,"easeOutCubic");
+		$('.reflection_el .expand-btn .btn-up').toggleClass("hidden",1000,"easeOutCubic");
+		$('.reflection_el .expand-btn .btn-down').toggleClass("hidden",1000,"easeOutCubic");
+	});	
+
 
 	// $('#hallstatt.btn').click(function(){
 	// 	$('.full-text').toggleClass("hidden");
