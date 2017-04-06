@@ -155,10 +155,25 @@ img {
     /*margin-bottom: 40px;*/
     width: 100%;
 }
-.site-tagline img
+
+.site-tagline div
+{
+    width: 220px;
+    height: 220px;
+    position: relative;
+}
+
+.site-tagline div img
 {
     height: 220px;
     margin-bottom: 30px;
+    position: absolute;
+}
+
+.site-tagline div img#back
+{
+    height: 218px;
+    margin-top: 1px;
 }
 
 .site-tagline p {

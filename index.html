@@ -45,7 +45,12 @@
             <div class="cf"></div>
 
             <div class="site-tagline">
-                <img src="img/portrait.png">
+	            <a href="slash.html">
+	            	<div>
+	                    <img id="back" src="img/portrait-back.png">
+	                    <img src="img/portrait.png" data-tilt data-tilt-perspective="100">
+	                </div>
+	            </a>
                 <p>Hello  I'm <strong>Lezhi Su.</strong> I'm an User Experience / Interaction designer. Here you can find my <a href="LezhiSu_CV.pdf" target="_blank"><u>resume</u></a> and <a href="#projects"><u>projects</u></a>. Welcome to <a href="#contact"><u>contact</u></a> me.</p>
             </div>
         </header>
@@ -232,5 +237,7 @@
             var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);
         })();
     </script>
+        <script src="js/tilt.jquery.js"></script>
+
 </body>
 </html>

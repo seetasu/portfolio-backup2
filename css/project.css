@@ -334,7 +334,8 @@ iframe
 #project-data .project-title .main-title,
 #project-heating .project-title .main-title,
 #project-stay .project-title .main-title,
-#project-bush .project-title .main-title
+#project-bush .project-title .main-title,
+#project-harvester .project-title .main-title
 {
     font-size: 70px;
     font-weight: 900;
